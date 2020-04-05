@@ -165,3 +165,6 @@ eagle.epf
 # Autodesk Inventor backups and lockfile
 OldVersions/
 lockfile.lck
+
+# VSCode GPX helper
+*.geojson
