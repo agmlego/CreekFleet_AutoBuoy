@@ -5,3 +5,4 @@ luma.core
 luma.oled
 Pillow
 pigpio
+pyserial
