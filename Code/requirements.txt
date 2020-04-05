@@ -1,0 +1,7 @@
+lxml
+gpxpy
+gps3
+luma.core
+luma.oled
+Pillow
+pigpio
