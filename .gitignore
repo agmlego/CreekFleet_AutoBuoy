@@ -127,3 +127,41 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# EAGLE
+*.s#?
+*.b#?
+*.l#?
+*.b$?
+*.s$?
+*.l$?
+eagle.epf
+*.pro
+*.job
+*.$$$
+*.cmp
+*.ly2
+*.l15
+*.sol
+*.plc
+*.stc
+*.sts
+*.crc
+*.crs
+*.dri
+*.drl
+*.gpi
+*.pls
+*.ger
+*.xln
+*.drd
+*.drd.*
+*.s#*
+*.b#*
+*.info
+*.eps
+*.lck
+
+# Autodesk Inventor backups and lockfile
+OldVersions/
+lockfile.lck
