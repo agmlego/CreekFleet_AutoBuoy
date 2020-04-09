@@ -168,3 +168,6 @@ lockfile.lck
 
 # VSCode GPX helper
 *.geojson
+
+# Office temp files
+~$*
