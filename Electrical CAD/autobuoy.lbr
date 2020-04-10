@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -26,8 +26,8 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -135,6 +135,112 @@
 <smd name="7" x="4.6228" y="3.2131" dx="1.27" dy="0.635" layer="1" rot="R180"/>
 <smd name="8" x="4.6228" y="4.4831" dx="1.27" dy="0.635" layer="1" rot="R180"/>
 </package>
+<package name="CFLOGO">
+<description>CreekFleet Logo</description>
+<polygon width="0.1" layer="1">
+<vertex x="15.42575625" y="5.087434375"/>
+<vertex x="7.84536875" y="7.544921875"/>
+<vertex x="0.046659375" y="10.1435625"/>
+<vertex x="0.024225" y="10.143615625"/>
+<vertex x="0.0706875" y="5.16489375"/>
+<vertex x="0.01159375" y="0.007471875"/>
+<vertex x="0.034034375" y="0.007565625"/>
+<vertex x="7.56801875" y="2.52870625"/>
+<vertex x="15.4257625" y="5.087434375"/>
+</polygon>
+<polygon width="0.1" layer="21">
+<vertex x="9.450778125" y="5.237421875"/>
+<vertex x="9.44940625" y="6.038753125"/>
+<vertex x="9.446078125" y="6.43941875"/>
+<vertex x="9.405171875" y="6.4877875"/>
+<vertex x="8.576609375" y="4.663784375"/>
+<vertex x="8.24668125" y="3.933528125"/>
+<vertex x="8.3971875" y="3.889003125"/>
+<vertex x="9.398859375" y="3.887784375"/>
+<vertex x="9.451484375" y="4.035396875"/>
+</polygon>
+<polygon width="0.1" layer="21">
+<vertex x="10.325253125" y="3.924403125"/>
+<vertex x="9.668196875" y="5.60403125"/>
+<vertex x="9.608253125" y="5.72143125"/>
+<vertex x="9.607615625" y="3.91784375"/>
+<vertex x="9.777959375" y="3.8878125"/>
+<vertex x="10.17875625" y="3.8878125"/>
+</polygon>
+<polygon width="0.1" layer="21">
+<vertex x="6.62020625" y="5.06953125"/>
+<vertex x="3.335015625" y="7.6303875"/>
+<vertex x="0.0330125" y="10.152621875"/>
+<vertex x="0.02328125" y="10.152584375"/>
+<vertex x="-0.000009375" y="5.084565625"/>
+<vertex x="0.0102875" y="0.016475"/>
+<vertex x="0.02001875" y="0.016396875"/>
+<vertex x="3.328471875" y="2.5236125"/>
+<vertex x="6.62020625" y="5.069528125"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="3.362028125" y="4.08736875"/>
+<vertex x="3.559196875" y="4.07775625"/>
+<vertex x="3.756446875" y="4.0914875"/>
+<vertex x="3.9499625" y="4.131771875"/>
+<vertex x="4.1330125" y="4.19253125"/>
+<vertex x="4.133175" y="4.390346875"/>
+<vertex x="4.021640625" y="4.43624375"/>
+<vertex x="3.829565625" y="4.38936875"/>
+<vertex x="3.632990625" y="4.36935"/>
+<vertex x="3.43655" y="4.38839375"/>
+<vertex x="3.252271875" y="4.458309375"/>
+<vertex x="3.096646875" y="4.5793125"/>
+<vertex x="2.9816625" y="4.73934375"/>
+<vertex x="2.915546875" y="4.92510625"/>
+<vertex x="2.908196875" y="5.122615625"/>
+<vertex x="2.9249625" y="5.319271875"/>
+<vertex x="3.0004875" y="5.501521875"/>
+<vertex x="3.1208375" y="5.6575875"/>
+<vertex x="3.28245625" y="5.770196875"/>
+<vertex x="3.472703125" y="5.8196375"/>
+<vertex x="3.670028125" y="5.81155"/>
+<vertex x="3.86388125" y="5.772821875"/>
+<vertex x="4.05255" y="5.713496875"/>
+<vertex x="4.1039625" y="5.83971875"/>
+<vertex x="4.072753125" y="6.01385"/>
+<vertex x="3.880309375" y="6.0594125"/>
+<vertex x="3.68445625" y="6.08654375"/>
+<vertex x="3.4868125" y="6.090909375"/>
+<vertex x="3.290459375" y="6.068965625"/>
+<vertex x="3.102265625" y="6.008846875"/>
+<vertex x="2.931328125" y="5.9102125"/>
+<vertex x="2.7852375" y="5.777340625"/>
+<vertex x="2.66845" y="5.618128125"/>
+<vertex x="2.58978125" y="5.4371"/>
+<vertex x="2.54834375" y="5.243921875"/>
+<vertex x="2.5369375" y="5.046596875"/>
+<vertex x="2.55548125" y="4.84988125"/>
+<vertex x="2.610675" y="4.660334375"/>
+<vertex x="2.7041625" y="4.486415625"/>
+<vertex x="2.832940625" y="4.3367875"/>
+<vertex x="2.99126875" y="4.2188375"/>
+<vertex x="3.170528125" y="4.13598125"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="3.449890625" y="5.083553125"/>
+<vertex x="3.4498875" y="4.679409375"/>
+<vertex x="3.592478125" y="4.61993125"/>
+<vertex x="3.615846875" y="4.798640625"/>
+<vertex x="3.61588125" y="5.000665625"/>
+<vertex x="4.020025" y="5.000665625"/>
+<vertex x="3.995571875" y="5.127559375"/>
+<vertex x="3.7935" y="5.127559375"/>
+<vertex x="3.615846875" y="5.151971875"/>
+<vertex x="3.615846875" y="5.3540625"/>
+<vertex x="3.761296875" y="5.410671875"/>
+<vertex x="3.96336875" y="5.410671875"/>
+<vertex x="4.113721875" y="5.462396875"/>
+<vertex x="3.996528125" y="5.54726875"/>
+<vertex x="3.5923875" y="5.54726875"/>
+<vertex x="3.449890625" y="5.487696875"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="XT09-SI">
@@ -178,6 +284,112 @@
 <pin name="A1" x="-5.08" y="7.62" length="middle" direction="in"/>
 <text x="0" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <text x="0" y="27.94" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="CFLOGO">
+<description>CreekFleet Logo</description>
+<polygon width="0.1" layer="92">
+<vertex x="15.42575625" y="5.087434375"/>
+<vertex x="7.84536875" y="7.544921875"/>
+<vertex x="0.046659375" y="10.1435625"/>
+<vertex x="0.024225" y="10.143615625"/>
+<vertex x="0.0706875" y="5.16489375"/>
+<vertex x="0.01159375" y="0.007471875"/>
+<vertex x="0.034034375" y="0.007565625"/>
+<vertex x="7.56801875" y="2.52870625"/>
+<vertex x="15.4257625" y="5.087434375"/>
+</polygon>
+<polygon width="0.1" layer="97">
+<vertex x="9.450778125" y="5.237421875"/>
+<vertex x="9.44940625" y="6.038753125"/>
+<vertex x="9.446078125" y="6.43941875"/>
+<vertex x="9.405171875" y="6.4877875"/>
+<vertex x="8.576609375" y="4.663784375"/>
+<vertex x="8.24668125" y="3.933528125"/>
+<vertex x="8.3971875" y="3.889003125"/>
+<vertex x="9.398859375" y="3.887784375"/>
+<vertex x="9.451484375" y="4.035396875"/>
+</polygon>
+<polygon width="0.1" layer="97">
+<vertex x="10.325253125" y="3.924403125"/>
+<vertex x="9.668196875" y="5.60403125"/>
+<vertex x="9.608253125" y="5.72143125"/>
+<vertex x="9.607615625" y="3.91784375"/>
+<vertex x="9.777959375" y="3.8878125"/>
+<vertex x="10.17875625" y="3.8878125"/>
+</polygon>
+<polygon width="0.1" layer="97">
+<vertex x="6.62020625" y="5.06953125"/>
+<vertex x="3.335015625" y="7.6303875"/>
+<vertex x="0.0330125" y="10.152621875"/>
+<vertex x="0.02328125" y="10.152584375"/>
+<vertex x="-0.000009375" y="5.084565625"/>
+<vertex x="0.0102875" y="0.016475"/>
+<vertex x="0.02001875" y="0.016396875"/>
+<vertex x="3.328471875" y="2.5236125"/>
+<vertex x="6.62020625" y="5.069528125"/>
+</polygon>
+<polygon width="0.1" layer="95">
+<vertex x="3.362028125" y="4.08736875"/>
+<vertex x="3.559196875" y="4.07775625"/>
+<vertex x="3.756446875" y="4.0914875"/>
+<vertex x="3.9499625" y="4.131771875"/>
+<vertex x="4.1330125" y="4.19253125"/>
+<vertex x="4.133175" y="4.390346875"/>
+<vertex x="4.021640625" y="4.43624375"/>
+<vertex x="3.829565625" y="4.38936875"/>
+<vertex x="3.632990625" y="4.36935"/>
+<vertex x="3.43655" y="4.38839375"/>
+<vertex x="3.252271875" y="4.458309375"/>
+<vertex x="3.096646875" y="4.5793125"/>
+<vertex x="2.9816625" y="4.73934375"/>
+<vertex x="2.915546875" y="4.92510625"/>
+<vertex x="2.908196875" y="5.122615625"/>
+<vertex x="2.9249625" y="5.319271875"/>
+<vertex x="3.0004875" y="5.501521875"/>
+<vertex x="3.1208375" y="5.6575875"/>
+<vertex x="3.28245625" y="5.770196875"/>
+<vertex x="3.472703125" y="5.8196375"/>
+<vertex x="3.670028125" y="5.81155"/>
+<vertex x="3.86388125" y="5.772821875"/>
+<vertex x="4.05255" y="5.713496875"/>
+<vertex x="4.1039625" y="5.83971875"/>
+<vertex x="4.072753125" y="6.01385"/>
+<vertex x="3.880309375" y="6.0594125"/>
+<vertex x="3.68445625" y="6.08654375"/>
+<vertex x="3.4868125" y="6.090909375"/>
+<vertex x="3.290459375" y="6.068965625"/>
+<vertex x="3.102265625" y="6.008846875"/>
+<vertex x="2.931328125" y="5.9102125"/>
+<vertex x="2.7852375" y="5.777340625"/>
+<vertex x="2.66845" y="5.618128125"/>
+<vertex x="2.58978125" y="5.4371"/>
+<vertex x="2.54834375" y="5.243921875"/>
+<vertex x="2.5369375" y="5.046596875"/>
+<vertex x="2.55548125" y="4.84988125"/>
+<vertex x="2.610675" y="4.660334375"/>
+<vertex x="2.7041625" y="4.486415625"/>
+<vertex x="2.832940625" y="4.3367875"/>
+<vertex x="2.99126875" y="4.2188375"/>
+<vertex x="3.170528125" y="4.13598125"/>
+</polygon>
+<polygon width="0.1" layer="95">
+<vertex x="3.449890625" y="5.083553125"/>
+<vertex x="3.4498875" y="4.679409375"/>
+<vertex x="3.592478125" y="4.61993125"/>
+<vertex x="3.615846875" y="4.798640625"/>
+<vertex x="3.61588125" y="5.000665625"/>
+<vertex x="4.020025" y="5.000665625"/>
+<vertex x="3.995571875" y="5.127559375"/>
+<vertex x="3.7935" y="5.127559375"/>
+<vertex x="3.615846875" y="5.151971875"/>
+<vertex x="3.615846875" y="5.3540625"/>
+<vertex x="3.761296875" y="5.410671875"/>
+<vertex x="3.96336875" y="5.410671875"/>
+<vertex x="4.113721875" y="5.462396875"/>
+<vertex x="3.996528125" y="5.54726875"/>
+<vertex x="3.5923875" y="5.54726875"/>
+<vertex x="3.449890625" y="5.487696875"/>
+</polygon>
 </symbol>
 </symbols>
 <devicesets>
@@ -228,6 +440,19 @@
 <connect gate="SUPPLY" pin="GND" pad="6"/>
 <connect gate="SUPPLY" pin="VCC" pad="5"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CFLOGO">
+<description>CreekFleet logo</description>
+<gates>
+<gate name="G$1" symbol="CFLOGO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CFLOGO">
 <technologies>
 <technology name=""/>
 </technologies>

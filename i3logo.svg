@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="546.13336"
+   height="546.13336"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="i3logo.svg"
+   inkscape:export-filename="C:\Users\Andrew G. Meyer\Downloads\Square_Logo.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <title
+     id="title3226">i3Detroit Logo</title>
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="364.95275"
+     inkscape:cy="294.81897"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>i3Detroit Logo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-123.78373,-288.19323)">
+    <path
+       style="fill:#1887bf;stroke-width:1.06666672"
+       inkscape:connector-curvature="0"
+       d="m 418.0901,405.9841 96.25653,-77.00523 V 305.47962 H 280.25797 v 23.49925 l 190.70544,0.4519 -93.3137,74.89391 -0.0796,23.28595 c 6.33756,-0.6616 12.76552,-1.0195 19.28023,-1.0195 101.83127,0 184.37872,82.54743 184.37872,184.37872 0,101.83127 -82.54745,184.3787 -184.37872,184.3787 -101.83128,0 -184.37871,-82.54743 -184.37871,-184.3787 0,-52.60579 22.06759,-100.02365 57.39961,-133.61673 l -15.91798,-14.78284 c -38.92198,37.48672 -63.17321,90.0925 -63.17321,148.39957 0,113.80866 92.26167,206.07032 206.07033,206.07032 113.80866,0 206.07033,-92.26166 206.07033,-206.07032 0,-106.64322 -81.0001,-194.35687 -184.83063,-204.98575 z"
+       id="path3051" />
+    <path
+       style="fill:#828282;stroke-width:1.06666672"
+       d="m 377.87024,495.72953 h 40.67178 v 38.41223 h -40.67178 z"
+       id="rect3055"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#828282;stroke-width:1.06666672"
+       d="m 377.87024,551.7662 h 40.67178 v 174.88863 h -40.67178 z"
+       id="rect3057"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
