@@ -18757,8 +18757,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="RTC" library="SparkFun-Connectors" deviceset="I2C_STANDARD" device=""/>
 <part name="SUPPLY22" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND37" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="TP3" library="testpad" deviceset="PTR1" device="B1,27"/>
-<part name="TP4" library="testpad" deviceset="PTR1" device="B1,27"/>
+<part name="GPA6" library="testpad" deviceset="PTR1" device="B1,27"/>
+<part name="GPA7" library="testpad" deviceset="PTR1" device="B1,27"/>
 <part name="GND38" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SWITCH" library="SparkFun-Connectors" deviceset="CONN_05" device="LOCK"/>
 <part name="GND39" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -18901,8 +18901,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="RTC" gate="G$1" x="-53.34" y="63.5"/>
 <instance part="SUPPLY22" gate="G$1" x="-45.72" y="63.5" rot="R270"/>
 <instance part="GND37" gate="1" x="-43.18" y="60.96" rot="R90"/>
-<instance part="TP3" gate="G$1" x="-22.86" y="-83.82" rot="R270"/>
-<instance part="TP4" gate="G$1" x="-22.86" y="-86.36" rot="R270"/>
+<instance part="GPA6" gate="G$1" x="-22.86" y="-83.82" rot="R270"/>
+<instance part="GPA7" gate="G$1" x="-22.86" y="-86.36" rot="R270"/>
 <instance part="GND38" gate="1" x="27.94" y="5.08"/>
 <instance part="SWITCH" gate="G$1" x="-68.58" y="-81.28"/>
 <instance part="GND39" gate="1" x="-60.96" y="-88.9"/>
@@ -19337,13 +19337,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="106.68" y1="88.9" x2="106.68" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="TX_PWR_L" class="0">
 <segment>
 <pinref part="TX" gate="G$1" pin="C"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="RXLED_L" class="0">
 <segment>
 <pinref part="RX" gate="G$1" pin="A"/>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -19493,7 +19493,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="147.32" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="CAN_TERM" class="0">
 <segment>
 <pinref part="C5" gate="G$1" pin="1"/>
 <pinref part="R5" gate="G$1" pin="1"/>
@@ -19539,7 +19539,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="CAN" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="#CAN_RST" class="0">
 <segment>
 <pinref part="U3" gate="G1" pin="Y"/>
 <wire x1="180.34" y1="5.08" x2="180.34" y2="40.64" width="0.1524" layer="91"/>
@@ -19590,7 +19590,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="160.02" y="5.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="STARBOARD_LED_LSD" class="0">
 <segment>
 <pinref part="Q1" gate="NMOS" pin="D"/>
 <pinref part="STAR_RUN" gate="G$1" pin="2"/>
@@ -19600,13 +19600,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="-96.52" y="55.88"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="STAR_IND" class="0">
 <segment>
 <pinref part="STARBOARD" gate="G$1" pin="C"/>
 <pinref part="R8" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="PORT_LED_LSD" class="0">
 <segment>
 <pinref part="Q2" gate="NMOS" pin="D"/>
 <pinref part="PORT_RUN" gate="G$1" pin="2"/>
@@ -19616,13 +19616,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="-134.62" y="55.88"/>
 </segment>
 </net>
-<net name="N$19" class="0">
+<net name="PORT_IND" class="0">
 <segment>
 <pinref part="PORT" gate="G$1" pin="C"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$20" class="0">
+<net name="ALLROUND_LED_LSD" class="0">
 <segment>
 <pinref part="Q3" gate="NMOS" pin="D"/>
 <pinref part="ALL_RUN" gate="G$1" pin="2"/>
@@ -19632,7 +19632,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="-172.72" y="55.88"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="ALLROUND_IND" class="0">
 <segment>
 <pinref part="ALLROUND" gate="G$1" pin="C"/>
 <pinref part="R10" gate="G$1" pin="2"/>
@@ -19918,20 +19918,20 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="-40.64" y1="-76.2" x2="-60.96" y2="-76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="GPA6" class="0">
 <segment>
 <pinref part="U6" gate="A" pin="GPA6"/>
 <wire x1="-2.54" y1="-83.82" x2="-20.32" y2="-83.82" width="0.1524" layer="91"/>
 <label x="-17.78" y="-83.82" size="1.778" layer="95"/>
-<pinref part="TP3" gate="G$1" pin="TP"/>
+<pinref part="GPA6" gate="G$1" pin="TP"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="GPA7" class="0">
 <segment>
 <pinref part="U6" gate="A" pin="GPA7"/>
 <wire x1="-2.54" y1="-86.36" x2="-20.32" y2="-86.36" width="0.1524" layer="91"/>
 <label x="-17.78" y="-86.36" size="1.778" layer="95"/>
-<pinref part="TP4" gate="G$1" pin="TP"/>
+<pinref part="GPA7" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="ALL_FLT" class="0">
